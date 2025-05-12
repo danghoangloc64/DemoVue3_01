@@ -158,18 +158,6 @@ export interface remoteHistoryData {
   historyDataAlertEmail: histortyDataEmail[];
 }
 
-export interface HistoryData {
-  timeReceivedCall: string;
-  timeOfOccurence: string;
-  controllerID: string;
-  customerName: string;
-  historyName: string;
-  numsOfCallReceived: string;
-  operatorName: string;
-  sellerName: string;
-  adminName: string;
-}
-
 export interface HistoryDataAbnormality {
   historyData: historyData;
   gatewayName: string;
