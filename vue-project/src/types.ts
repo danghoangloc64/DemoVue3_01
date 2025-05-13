@@ -1,9 +1,9 @@
 /**
  * @file types.ts
  * @brief Defines the types and interfaces used throughout the application.
- * @author IVC
+ * @author Author
  * @date 2025/01/24
- * @details This file contains the type definitions and interfaces for various data structures used in the application, including system logs, contractor data, and related entities.
+ * @details This file contains the type definitions and interfaces
  */
 
 export interface ErrorObject {
