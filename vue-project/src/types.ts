@@ -1,9 +1,9 @@
 /**
  * @file types.ts
  * @brief Defines the types and interfaces used throughout the application.
- * @author IVC
+ * @author Author
  * @date 2025/01/24
- * @details This file contains the type definitions and interfaces for various data structures used in the application, including system logs, contractor data, and related entities.
+ * @details This file contains the type definitions and interfaces
  */
 
 export interface ErrorObject {
@@ -156,6 +156,18 @@ export interface remoteHistoryData {
   historyDataMaintenance: historyDataMaintenance[];
   historyDataMaintainEmail: histortyDataEmail[];
   historyDataAlertEmail: histortyDataEmail[];
+}
+
+export interface HistoryData {
+  timeReceivedCall: string;
+  timeOfOccurence: string;
+  controllerID: string;
+  customerName: string;
+  historyName: string;
+  numsOfCallReceived: string;
+  operatorName: string;
+  sellerName: string;
+  adminName: string;
 }
 
 export interface HistoryDataAbnormality {
